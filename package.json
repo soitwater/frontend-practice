@@ -9,7 +9,7 @@
     "install:child-vue3": "cd child-vue3 && yarn i",
     "start": "npm-run-all --parallel start:*",
     "start:qiankun-main": "cd qiankun-main && yarn serve",
-    "start:child-vue3": "cd child-vue3 && yarn serve",
+    "start:vue3-ts-admin": "cd vue3-ts-admin && yarn serve",
     "build": "npm-run-all build:* && bash ./scripts/bundle.sh",
     "build:sub-vue": "cd sub-vue && npm run build",
     "build:main": "cd main && npm run build",
