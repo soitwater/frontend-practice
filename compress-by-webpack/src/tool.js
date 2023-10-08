@@ -50,4 +50,3 @@ export function getCenterByExtentList(list) {
     return min + diff / 2;
   }
 }
-
